@@ -1,0 +1,30 @@
+body {
+    background: white;
+}
+table {background: #171717;
+}
+td a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+section {
+    padding: 10px;
+    background: #171717;
+}
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: gray;
+    box-shadow: 0 0 10px gray, 0 0 40px gray, 0 0 80px gray;
+}
